@@ -1,0 +1,42 @@
+.friendCard{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* margin: 0.5rem; */
+    border-bottom: 2px solid rgb(221, 221, 221);
+    background-color: white;
+    margin-bottom: 0.6rem;
+    padding: 0.5rem 1rem;
+}
+.prof_image{
+    margin-right: 1rem;
+}
+
+.prof_image img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.friend_detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.friend_detail .frnd_name{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.friendCard button{
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+.friendCard button:hover{
+
+    background-color: rgb(247, 87, 87);
+}
